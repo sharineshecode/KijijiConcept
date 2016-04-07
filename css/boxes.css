@@ -1,0 +1,105 @@
+.box {
+	height: auto;
+	width: 620px;
+	padding: 40px;
+	margin: 20px 20px 20px 0;
+	background: white;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+	-moz-box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+	box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+}
+
+.box h5 {
+	font-size: 12px;
+	color: #cbd1d1;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.box ul {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.box ul li {
+	width: 200px;
+	padding: 5px 0;
+}
+
+.box ul li a {
+	color: #A7A9AC;
+	font-weight: 400;
+}
+
+.box ul li a:hover {
+	color: #3E438A;
+	opacity: 1;
+}
+
+.box_title {
+	display: inline-block;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #6D6E71;
+}
+
+.box_2 {
+	width: 420px;
+	height: 420px;
+	margin: 20px 0 20px 20px;
+	position: relative;
+	background: url(../img/bg_ad.png) center / cover no-repeat #fff;
+	-webkit-box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+	-moz-box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+	box-shadow: 0px 7px 23px -4px rgba(0, 0, 0, 0.59);
+}
+
+.box_2 .grad {
+	width: 420px;
+	height: 420px;
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.01) 20%, rgba(0, 0, 0, 0) 67%, rgba(0, 0, 0, 0.68) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.01) 20%, rgba(0, 0, 0, 0) 67%, rgba(0, 0, 0, 0.68) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.01) 20%, rgba(0, 0, 0, 0) 67%, rgba(0, 0, 0, 0.68) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.box_2 .slide_content h1 a {
+	font-size: 26px;
+}
+
+.box_2 .slide_content p {
+	height: 40px;
+	width: 320px;
+	overflow: hidden;
+}
+
+#box2 {
+	width: 400px;
+}
+
+#box3 {
+	width: 380px;
+}
+
+#box4 {
+	width: 260px;
+	margin-right: 0;
+}
+#box5{
+	width: 440px;
+}
+#box6{
+	width: 250px;
+}
+
+#box4 ul {
+	height: auto;
+}

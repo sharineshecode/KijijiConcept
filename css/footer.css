@@ -1,0 +1,55 @@
+footer {
+	width: 100%;
+	padding: 40px 80px;
+	box-sizing: border-box;
+	background: #464F93;
+}
+
+.footer_wrap {
+	width: 1080px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+footer a,
+footer h1 {
+	color: white;
+}
+
+footer a {
+	font-weight: 100;
+}
+
+.footer_box {
+	margin: 20px 0;
+	width: 200px;
+}
+
+footer li {
+	width: 200px;
+	margin: 10px 0;
+}
+
+footer .legal {
+	width: 1080px;
+	display: block;
+	color: white;
+	font-weight: 100;
+	margin: 0 auto;
+}
+
+footer .legal p {
+	font-size: 12px;
+	color: #7e89d9;
+}
+
+footer .legal span {
+	line-height: 20px;
+	color: white;
+	display: block;
+	font-size: 15px;
+}

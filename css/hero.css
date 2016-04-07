@@ -1,0 +1,48 @@
+.hero_section {
+	height: 600px;
+	width: 100%;
+}
+
+.solid_bg {
+	height: 400px;
+	width: 100%;
+	background: #464F93;
+}
+
+.hero_section h1 {
+	font-size: 36px;
+	animation: fade 2s ease-in, moveRight1 1s ease-in-out;
+}
+
+.hero_section h4 {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+	animation: fade 3s ease-in-out, moveRight1 1.5s ease-in-out;
+}
+
+.hero_section .content {
+	position: relative;
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	top: 95px;
+	color: white;
+}
+
+.hero_image {
+	position: absolute;
+	width: 100%;
+	top: 300px;
+}
+
+.hero_img {
+	width: 833px;
+	margin: 0 auto;
+	animation: fade 1s ease-in-out;
+}
+
+.hero_img img {
+	width: 833px;
+}
